@@ -1,0 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, serif;
+    background-color: #f6f9fc; /* Fundo cinza claro */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    border: 1px solid #ccc; /* Borda cinza claro */
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff; /* Container branco */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra cinza leve */
+    text-align: center; /* Centralizar texto dentro do container */
+}
+
+h2 {
+    font-size: 24px;
+    color: #4285f4; /* Azul Google */
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333; /* Texto cinza escuro */
+    text-align: center; /* Centralizar texto dos labels */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 24px); /* Fazer os campos de input ocuparem toda a largura menos a margem */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc; /* Borda cinza claro */
+    border-radius: 5px;
+    color: #333; /* Texto cinza escuro */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 15px;
+    background-color: #4285f4; /* Azul Google */
+    color: #fff; /* Texto branco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-bottom: 16px;
+    width: calc(50% - 24px); /* Fazer o botão ocupar toda a largura menos a margem */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Centralizar o texto do botão */
+}

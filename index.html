@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue-Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+        <component :is="currentComponent"></component>
+    </div>
+    <!-- <ValidationProvider rules="loginForm.rules.loginEmail" v-slot="{ errors }">
+        <input type="email" id="login-email" v-model="loginForm.data.loginEmail" />
+        <span v-if="errors" class="error">{{ errors[0] }}</span>
+      </ValidationProvider>
+      
+      <ValidationProvider rules="loginForm.rules.loginPassword" v-slot="{ errors }">
+        <input type="password" id="login-password" v-model="loginForm.data.loginPassword" />
+        <span v-if="errors" class="error">{{ errors[0] }}</span>
+      </ValidationProvider> -->
+ </body>
+</html>
+
+<script src="index.js"></script>
